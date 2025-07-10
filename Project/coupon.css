@@ -1,0 +1,84 @@
+section, nav, aside, footer{
+    display: block;
+}
+#wrap{
+    background: url("background.jpg");
+    width: 87%;
+    
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1500px;
+    overflow: auto; 
+}
+body{
+    background: url("background.jpg");
+    font-family: "Joystix", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section h1{
+    font-size: 52px;
+}
+section h2{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+section h2, section p, aside h2{
+    margin: 30px;
+}
+section{
+    color: white;
+    
+}
+section p{
+    margin: 45px;
+}
+aside{
+    color: red;
+
+}
+aside h2{
+    margin-top: 100px;
+}
+aside h2, section h2{
+    font-size: 38px;
+}
+aside p{
+    font-size: 16px;
+    margin-left: 45px;
+}
+nav{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: purple
+}
+footer{
+    float: right;
+}
+
+@media screen and (max-width:800px){
+    footer{
+        float: left;
+    }
+}
+
+@media screen and (max-width:480px){
+    
+    section h1{
+        font-size: 35px;
+    }
+    section h2, aside h2{
+        font-size: 21px;
+    }
+    section p, aside p{
+        font-size: 16px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,80 @@
+section, aside, nav, footer{
+    display: block;
+}
+#wrap{
+    background: url("background.jpg");
+    width: 87%;
+    
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1500px;
+    overflow: auto; 
+}
+body{
+    background: url("background.jpg");
+    font-family: "Joystix", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section p{
+    color: rgb(96, 208, 216);
+    
+}
+section h1{
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
+section h2, aside h2{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-size: 41px;
+    color:blueviolet
+}
+aside p{
+    color: rgb(207, 58, 58)
+}
+nav{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: purple
+}
+footer{
+    float: right;
+}
+@media screen and (max-width:800px){
+    footer{
+        float: left;
+    }
+    #wrap{
+        width: 91%;
+    }
+}
+
+@media screen and (max-width:480px){
+    #wrap{
+        width: 99%;
+    }
+    section h1{
+        font-size: 35px;
+    }
+    section h2, aside h2{
+        font-size: 21px;
+    }
+    section p, aside p{
+        font-size: 14px;
+    }
+    section p{
+        color:rgb(58, 143, 143)
+    }
+    aside p{
+        color:brown;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}

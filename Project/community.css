@@ -1,0 +1,104 @@
+section, aside, nav, footer{
+    display: block;
+}
+#wrap{
+    background: white;
+    width: 87%;
+    
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1500px;
+    overflow: auto; 
+}
+body{
+    background: url("ForestLobby.png");
+    opacity: 0.8;
+}
+section{
+    font-size: large;
+}
+section h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 30px;
+}
+section p, aside a{
+    margin: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+aside ul{
+    font-size: 22px;
+    list-style: none;
+    margin-top: 50px;
+    
+}
+aside a{
+    text-decoration: none;
+}
+nav{
+    margin: 20px;
+    margin-top: 200px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"Joystix",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+    border: 2px solid black;
+    margin: 30px;
+    padding: 2%;
+    border-style:inset;
+}
+footer{
+    margin-top: 100px;
+    padding: 2%;
+}
+
+@media screen and (max-width:800px){
+    #wrap{
+        width: 91%;
+    }
+    body{
+        background-color: rgb(7, 82, 20);
+        background-image: none;
+    }
+    aside a{
+        font-size: 18px;
+        
+    }
+    nav ul{
+        margin-top: 20%;
+    }
+    nav a{
+        
+        font-size: 20px;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: rgb(9, 110, 25);
+        
+    }
+    #wrap{
+        width: 95%;
+    }
+    
+    aside p{
+        font-size: 16px;
+        
+    }
+    nav a{
+        font-size: 18px;
+    }
+}

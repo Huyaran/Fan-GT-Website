@@ -1,0 +1,98 @@
+section, aside, nav, footer{
+    display: block;
+}
+#wrap{
+    background: white;
+    width: 87%;
+    
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1500px;
+    overflow: auto; 
+}
+body{
+    background: url("Heavenhold.jpg") no-repeat;
+    opacity: 0.77;
+}
+section{
+    font-size: large;
+    
+}
+section h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 30px;
+}
+
+section p, aside p{
+    margin: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section h1, aside h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+aside{
+    font-size: 22px;
+}
+aside h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20%;
+}
+aside p{
+    padding: 3%;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Joystix", sans-serif;
+    color: red;
+    border: 2px solid black;
+    background-image: url("Heavenhold.jpg");
+    border-style:inset;
+    padding: 2%;
+}
+footer{
+    margin-top: 100px;
+    padding: 2%;
+}
+@media screen and (max-width:800px){
+    #wrap{
+        width: 91%;
+    }
+    body{
+        background-color: rgb(1, 131, 206);
+        background-image: none;
+    }
+    aside p{
+        font-size: 18px;
+        
+    }
+    nav ul{
+        margin-top: 20%;
+    }
+    nav a{
+        
+        font-size: 20px;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:480px){
+    #wrap{
+        width: 95%;
+    }
+    
+    aside p{
+        font-size: 16px;
+        
+    }
+}

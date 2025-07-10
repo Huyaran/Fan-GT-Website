@@ -1,0 +1,80 @@
+section, nav, aside, footer{
+    display: block;
+}
+#wrap{
+    background: white;
+    width: 87%;
+    
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1500px;
+    overflow: auto; 
+}
+body{
+    background: url("TeatanKingdom.jpg") no-repeat;
+    opacity:0.87;
+}
+section{
+    margin: 30px;
+}
+section h1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-bottom:1px solid #333;
+}
+section h2, aside h3{
+    font-size: 28px;
+}
+section a{
+    font-size: 18px;
+}
+section, aside, footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+aside{
+    margin: 40px;
+    margin-top: 100px;
+}
+nav{
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+nav li{
+    text-align: center;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font: normal 22px/1.2 "Joystix";
+    color: red;
+}
+footer{
+    margin: 20px;
+    float: left;
+}
+
+@media screen and (max-width:800px){
+    body{
+        background: rgba(255, 255, 0, 0.582);
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        background: rgba(255, 255, 87, 0.582);
+    }
+    section h1{
+        font-size: 35px;
+    }
+    section h2{
+        font-size: 21px;
+    }
+    section a{
+        font-size: 16px;
+    }
+    nav li{
+        text-align: left;
+    }
+}

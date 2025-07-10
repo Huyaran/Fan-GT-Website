@@ -1,0 +1,56 @@
+section{
+    display: block;
+}
+body{
+    background-image: url("80s-tv.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+section{
+    margin-left: 500px;
+    margin-top: 160px;
+    padding-top: 80px;
+    margin-bottom: 260px;
+}
+section a{
+    font: normal 45px/1.5 "Joystix";
+    color: red;
+    
+}
+@media screen and (max-width:480px){
+	body{
+		background:black;
+		background-image:none;
+	}
+	
+	
+	
+	section{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+		float:left;
+		width:100%;
+	}
+	
+	
+}
+@media screen and (max-width:800px){
+	body{
+		background:black;
+		background-image:none;
+	}
+	
+	
+	
+	section{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+		float:none;
+		width:100%;
+	}
+	
+	
+}
